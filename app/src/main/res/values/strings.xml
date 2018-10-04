@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyFlexibleFragment_DicodingP3</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notes">aplikasi akan menampilkan satu text dan satu button yang dimana kedua komponen tersebut dimiliki oleh HomeFragment.</string>
+    <string name="lillah">Proses kembali kepada Allah</string>
+    <string name="jihad">ibadah fisabilillah</string>
+    <string name="fisabilillah">memperbanyak amal</string>
+    <string name="hijrah">dunia digenggaman akhirat dihati</string>
+</resources>

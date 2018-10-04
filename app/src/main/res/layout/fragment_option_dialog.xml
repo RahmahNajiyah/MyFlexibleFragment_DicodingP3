@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--todo 1 part 4 =  fragment untuk menampilkan sebuah custom dialog. Kita akan menggunakan DialogFragment lengkap dengan interaksinya.-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hafidzcode.myflexiblefragment_dicodingp3.OptionDialogFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apa itu hidup ?"
+        android:layout_marginBottom="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/rg_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/rb_lillah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lillah"
+            android:layout_marginBottom="16dp" />
+
+        <RadioButton
+            android:id="@+id/rb_jihad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jihad"
+            android:layout_marginBottom="16dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_fisabilillah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fisabilillah"
+            android:layout_marginBottom="16dp" />
+
+        <RadioButton
+            android:id="@+id/rb_hijrah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hijrah"
+            android:layout_marginBottom="16dp"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="tutup"
+            android:layout_marginRight="4dp"/>
+
+        <Button
+            android:id="@+id/btn_choose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Pilih"
+            android:layout_marginLeft="4dp"/>
+
+    </LinearLayout>
+</LinearLayout>

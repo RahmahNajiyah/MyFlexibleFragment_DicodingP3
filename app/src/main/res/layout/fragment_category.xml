@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--todo 1 bagian ke2 - projek fragment part 2 = membuat tampilan berubah dalam 1 activity tanpa berpindah halaman-->
+<!--kita akan membuat sebuah fragment lagi untuk melihat bagaimana sebuah tampilan bisa dengan fleksibel berubah di dalam satu activity, tanpa berpindah halaman-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.hafidzcode.myflexiblefragment_dicodingp3.CategoryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ini halaman Category"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_detail_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kategory Lifestyle"/>
+</LinearLayout>

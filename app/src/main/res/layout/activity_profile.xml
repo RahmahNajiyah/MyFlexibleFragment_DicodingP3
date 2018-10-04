@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--todo 1 part 5-->
+<!--belajar bagaimana menjalankan sebuah Activity dari fragment-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hafidzcode.myflexiblefragment_dicodingp3.ProfileActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ini profile Activity"/>
+
+</LinearLayout>
